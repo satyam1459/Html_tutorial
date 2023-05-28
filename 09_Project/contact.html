@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="author" content="Satyam Jaiswal">
+    <meta name="description" content="Contatct information for Kerala Cuisine">
+    <title>Contact Us- Kerala Cuisine</title>
+    <link rel="icon" href="img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <header>
+        <h1>Contact Us</h1>
+        <nav>
+            <ul>
+                <li>
+                    <a href="/09_Project/index.html">Home</a>
+                </li>
+                <li>
+                    <a href="/09_Project/#about">About <abbr title="Kerala Cuisine">K.C</abbr></a>
+                </li>
+                <li>
+                    <a href="/09_Project/#menu">Menu</a>
+                </li>
+                <li>
+                    <a href="/09_Project/hours.html">Store Hours</a>
+                </li>
+            </ul>
+        </nav>
+
+        <figure>
+            <img src="img/contacrimg.jpg" alt="Contact Us" width="400" height="100">
+            <figcaption>Glad to get in touch</figcaption>
+        </figure>
+    </header>
+
+    <hr>
+    <main>
+        <section>
+        <!--Our content will go here-->
+        <h2>Our contact form</h2>
+        <form action="https://httpbin.org/get" method="get">
+            <fieldset>
+                <legend>Send us a Message</legend>
+                <p>
+                   <label for="name">Name</label>
+                   <input type="text" name="name" id="name" placeholder="your name" required> 
+                </p>
+                <p>
+                   <label for="email">Email:</label>
+                   <input type="email" name="email" id="email" placeholder="abc@example.com" required> 
+                </p>
+                <p>
+                   <label for="message">Your Message:</label>
+                   <br>
+                   <textarea name="message" id="message" cols="30" rows="10" placeholder="Type your message"></textarea> 
+                </p>
+            </fieldset>
+            <button type="submit">Send</button>
+            <button type="reset">Reset</button>
+        </form>
+        </section> 
+        <section>
+            <h2>Our Location</h2>
+            <address>
+                143 City Mall,Road,Gorakhpur,
+                Phone- <a href="tel:+91-9199919191"> +91-9199919191</a>
+            </address>
+        </section> 
+    </main>
+    <hr>
+    <footer>
+        <p>Copyight &copy; Kerala Cuisine</p>
+    </footer>
+</body>
+
+
+</html>
